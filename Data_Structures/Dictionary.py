@@ -3,10 +3,8 @@
 # Expected Result : {0: 10, 1: 20, 2: 30} 
 
 
-# Sample dictionary
 sample_dict = {0: 10, 1: 20}
 
-# Adding key-value pair 2:30
 sample_dict[2] = 30
 
 print("Updated dictionary:", sample_dict)
@@ -19,12 +17,10 @@ print("Updated dictionary:", sample_dict)
 # Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 	
 
-# Given dictionaries
 dic1 = {1: 10, 2: 20}
 dic2 = {3: 30, 4: 40}
 dic3 = {5: 50, 6: 60}
 
-# Concatenating all into a new dictionary
 result = {}
 for d in (dic1, dic2, dic3):
     result.update(d)
@@ -52,17 +48,14 @@ else:
 	
 sample_dict = {'a': 1, 'b': 2, 'c': 3}
 
-# Keys alone
 print("Keys:")
 for key in sample_dict:
     print(key)
 
-# Values alone
 print("\nValues:")
 for value in sample_dict.values():
     print(value)
 
-# Both keys and values
 print("\nKeys and Values:")
 for key, value in sample_dict.items():
     print(f"{key}: {value}")
