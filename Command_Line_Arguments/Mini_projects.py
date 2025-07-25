@@ -28,5 +28,4 @@ def calculate_happiness():
     except Exception as e:
         print(f"Error occurred: {e}")
 
-# Run the function
 calculate_happiness()
