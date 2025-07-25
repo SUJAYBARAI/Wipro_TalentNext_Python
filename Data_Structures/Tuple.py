@@ -2,10 +2,8 @@
 
 my_tuple = (10, 20, 30, 40, 50, 60, 70, 80)
 
-# 4th element from start is at index 3
 print("4th element from start:", my_tuple[3])
 
-# 4th element from end is at index -4
 print("4th element from end:", my_tuple[-4])
 
 
@@ -26,7 +24,6 @@ else:
 	
 my_list = [10, 20, 30, 40]
 
-# Convert to tuple
 my_tuple = tuple(my_list)
 
 print("Converted tuple:", my_tuple)
@@ -37,7 +34,6 @@ print("Converted tuple:", my_tuple)
 	
 my_tuple = ('a', 'b', 'c', 'd', 'e')
 
-# Find index of 'c'
 index = my_tuple.index('c')
 
 print("Index of 'c':", index)
@@ -51,7 +47,6 @@ print("Index of 'c':", index)
 
 sample_list = [(10, 20, 40), (40, 50, 60), (70, 80, 90)]
 
-# Replace last element in each tuple with 100
 modified_list = [t[:-1] + (100,) for t in sample_list]
 
 print("Modified list:", modified_list)
