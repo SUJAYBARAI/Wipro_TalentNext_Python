@@ -1,6 +1,6 @@
 #  Que 1: Write a program to accept two numbers as command line arguments and display their sum.
 
-# sum_two_numbers.py
+
 import sys
 
 if len(sys.argv) != 3:
@@ -14,7 +14,7 @@ else:
 # Que 2: Write a program to accept a welcome message through command line arguments and display the file name along with the welcome message.
 
 
-# welcome_message.py
+
 import sys
 
 if len(sys.argv) != 2:
@@ -25,7 +25,7 @@ else:
 
 # Que 3: Write a program to accept 10 numbers through command line arguments and calculate the sum of prime numbers among them.
 
-# sum_primes.py
+
 import sys
 
 def is_prime(n):
