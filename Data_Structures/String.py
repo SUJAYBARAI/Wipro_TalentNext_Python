@@ -20,7 +20,6 @@ print("Lowercase letters:", lower_count)
 	
 text = "madam"
 
-# Remove spaces and convert to lowercase for accurate check
 cleaned = text.replace(" ", "").lower()
 
 if cleaned == cleaned[::-1]:
@@ -34,10 +33,8 @@ else:
 
 text = "Wipro"
 
-# Get first 2 characters
 first_two = text[:2]
 
-# Repeat it len(text) times
 result = first_two * len(text)
 
 print("Output:", result)
@@ -61,10 +58,8 @@ print("Modified string:", text)
 text = "Wipro"
 n = 3
 
-# Get last n characters
 last_n_chars = text[-n:]
 
-# Repeat n times
 result = last_n_chars * n
 
 print("Output:", result)
