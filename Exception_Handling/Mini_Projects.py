@@ -14,7 +14,7 @@ def process_purchase_file():
         for line in lines:
             line = line.strip()
             if not line:
-                continue  # Skip blank lines
+                continue  
             try:
                 parts = line.split()
                 if len(parts) == 2:
@@ -45,5 +45,4 @@ def process_purchase_file():
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-# Run the function
 process_purchase_file()
