@@ -24,10 +24,10 @@ for person, fact in people_facts.items():
 # Project 2:
 
 def find_runner_up(scores):
-    unique_scores = list(set(scores))  # Remove duplicates
-    unique_scores.sort(reverse=True)   # Sort in descending order
+    unique_scores = list(set(scores)) 
+    unique_scores.sort(reverse=True)   
     if len(unique_scores) >= 2:
-        return unique_scores[1]        # Second highest
+        return unique_scores[1]        
     else:
         return "No runner-up found"
 
@@ -70,16 +70,13 @@ else:
 # Explanation:Alex name appears 3 times in the string. Hi AlexWelcomeAlexBye Alex
 
 def count_alex_occurrences(text):
-    # Split string into words
+  
     words = text.split()
     
-    # Count exact matches of 'Alex'
     return words.count('Alex')
 
-# Input string
 input_string = input("Enter the string: ")
 
-# Get count
 count = count_alex_occurrences(input_string)
 
 print("Alex appears", count, "times.")
