@@ -1,12 +1,9 @@
 #  Que1: Write a program to create a list of 5 integers and display the list items. Access individual elements through index.
 
- # Creating a list of 5 integers
 numbers = [10, 20, 30, 40, 50]
 
-# Display the list
 print("List:", numbers)
 
-# Accessing individual elements by index
 print("First element:", numbers[0])
 print("Second element:", numbers[1])
 print("Third element:", numbers[2])
@@ -19,7 +16,6 @@ print("Fifth element:", numbers[4])
 	
 numbers = [1, 2, 3, 4, 5]
 
-# Appending a new item
 numbers.append(6)
 
 print("Updated list:", numbers)
@@ -30,7 +26,6 @@ print("Updated list:", numbers)
 
 numbers = [1, 2, 3, 4, 5]
 
-# Reversing the list
 numbers.reverse()
 
 print("Reversed list:", numbers)
@@ -40,7 +35,6 @@ print("Reversed list:", numbers)
 
 numbers = [1, 2, 3, 2, 4, 2, 5]
 
-# Count occurrences of 2
 count = numbers.count(2)
 
 print("Number of occurrences of 2:", count)
@@ -52,7 +46,6 @@ print("Number of occurrences of 2:", count)
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
-# Append list1 to the front of list2
 list2 = list1 + list2
 
 print("Updated list2:", list2)
@@ -63,7 +56,6 @@ print("Updated list2:", list2)
 
 numbers = [10, 20, 30, 40]
 
-# Insert 15 before second element (index 1)
 numbers.insert(1, 15)
 
 print("List after insertion:", numbers)
@@ -74,7 +66,6 @@ print("List after insertion:", numbers)
 
 numbers = [10, 20, 30, 40, 50]
 
-# Remove item at index 2 (which is 30)
 del numbers[2]
 
 print("List after deletion:", numbers)
@@ -84,7 +75,6 @@ print("List after deletion:", numbers)
 #  Que8: Write a program to remove the first occurrence of a specified element from a list.
 numbers = [10, 20, 30, 20, 40]
 
-# Remove first occurrence of 20
 numbers.remove(20)
 
 print("List after removing first occurrence of 20:", numbers)
