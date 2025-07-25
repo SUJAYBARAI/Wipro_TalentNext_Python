@@ -2,8 +2,7 @@
 
 my_set = {1, 2, 3, 4, 5}
 
-# Remove item 3 from the set
-my_set.discard(3)  # Use discard to avoid error if item doesn't exist
+my_set.discard(3)  
 
 print("Set after removal:", my_set)
 
@@ -12,8 +11,7 @@ print("Set after removal:", my_set)
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
 
-# Intersection of set1 and set2
-intersection = set1 & set2  # or set1.intersection(set2)
+intersection = set1 & set2 
 
 print("Intersection:", intersection)
 
@@ -22,8 +20,8 @@ print("Intersection:", intersection)
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 
-# Union of set1 and set2
-union_set = set1 | set2  # or set1.union(set2)
+
+union_set = set1 | set2 
 
 print("Union:", union_set)
 
@@ -32,7 +30,6 @@ print("Union:", union_set)
 
 my_set = {10, 25, 5, 100, 50}
 
-# Find max and min values
 max_value = max(my_set)
 min_value = min(my_set)
 
